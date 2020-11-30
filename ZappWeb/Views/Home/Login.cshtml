@@ -1,0 +1,31 @@
+﻿@section styles{
+    <style type="text/css">
+        body {
+            background-color: #32A060;
+        }
+
+        input[type=text] {
+            max-width: 690px;
+        }
+    </style>
+}
+<div class="container-login">
+    <img src="~/imagem/logo.png" style="width: 100px;" />
+    <h1>ZapWeb</h1>
+    <div class="container-form" id="form_login">
+        <input type="text" placeholder="E-mail" id="email" />
+        <br />
+        <input type="password" placeholder="Senha" id="senha"/>
+
+        <div class="container-button">
+            <div class="div-button">
+                <input type="button" value="ACESSAR" id="btn_acessar" />
+            </div>
+            <div  class="div-button">
+                <a href="Cadastro"  value="CADASTRAR" id="btn_cadastrar">Cadastrar</a>
+            </div>
+           
+        </div>
+        <span id="mensagem"></span>
+    </div>
+</div>
